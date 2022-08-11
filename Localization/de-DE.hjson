@@ -1,0 +1,89 @@
+# English ("en-US"), German ("de-DE"), Italian ("it-IT"), French ("fr-FR"), Spanish ("es-ES"), Russian ("ru-RU"), Chinese ("zh-Hans"), Portuguese ("pt-BR"), and Polish ("pl-PL")
+# Localization for BetterBeds.tmod
+{
+	Mods: {
+		OneSkyBlock: {
+			CraftableAltar: {
+				DisplayName: "Bastelbarer Dämonenaltar"
+				Tooltip: "Lässt nichts fallen, wenn du ihn kaputt machst!"
+			}
+			WorldGen: {
+				ResetWorld: "Aufräumen der Welt"
+				PrepareChallenge: "SkyBlock-Herausforderung vorbereiten"
+				GenerateIslands: "Erzeugen von schwimmenden Inseln"
+				GenerateJungle: "Dschungel-Tempel generieren"
+				GenerateDungeon: "Dungeon generieren"
+				FinishLoading: "Generierung abschließen"
+			}
+			Configuration: {
+				WorldGenerationHeader: "Einstellungen für die Welterzeugung [c/ff9eb4:(diese Einstellung kann kaputt gehen)]"
+
+				GenerateDungeon: "[i:3205] Dungeon Aktiviert"
+				GenerateDungeonTooltip: "Wenn diese Option aktiviert ist, wird der Dungeon auf neu erstellten Welten generiert.\nEs wird empfohlen, eine Mod zu verwenden, die Dungeon-bezogene Gegenstände bereitstellt, wenn diese Option deaktiviert ist."
+
+				GenerateTemple: "[i:3208] Dschungel-Tempel Aktiviert"
+				GenerateTempleTooltip: "Wenn diese Option aktiviert ist, wird der Dschungeltempel auf neu erstellten Welten generiert.\nEs wird empfohlen, eine Mod zu verwenden, die tempelbezogene Gegenstände bereitstellt, wenn sie deaktiviert ist."
+
+				GenerateUnderworld: "[i:4878] Unterwelt Aktiviert"
+				GenerateUnderworldTooltip: "Wenn diese Option aktiviert ist, wird die Unterwelt auf neu erstellten Welten generiert.\nACHTUNG: Diese Funktion kann die Weltengenerierung unterbrechen."
+
+				GeneratePyramids: "[i:4407] Pyramiden Aktiviert"
+				GeneratePyramidsTooltip: "Wenn diese Option aktiviert ist, können Pyramiden auf neu erstellten Welten generiert werden.\nPyramiden werden möglicherweise nicht generiert, unabhängig davon, ob diese Option aktiviert ist oder nicht.\nWARNUNG: Diese Funktion kann die Weltengenerierung unterbrechen."
+
+				GenerateIslands: "[i:3206] Schwimmende Inseln Aktiviert"
+				GenerateIslandsTooltip: "Wenn Sie diese Option einschalten, werden schwimmende Inseln auf neu erstellten Welten generiert.\nEs wird empfohlen, eine Mod zu verwenden, die Gegenstände für schwimmende Inseln bereitstellt, wenn diese Option ausgeschaltet ist.\nWARNUNG: Diese Funktion kann die Weltengenerierung unterbrechen."
+
+				GenerateBiomes: "[i:3203] Mikro-Biome Aktiviert"
+				GenerateBiomesTooltip: "Diese Funktion ist derzeit aufgrund von Problemen mit der Welterzeugung deaktiviert."
+
+				GenerateOceans: "[i:5002] Ozeane Aktiviert"
+				GenerateOceansTooltip: "Diese Funktion ist derzeit aufgrund von Problemen mit der Welterzeugung deaktiviert."
+
+				SkyblockSettingsHeader: "Einstellungen für einen Skyblock"
+
+				OneBlockMaxDrops: "[i:18] Skyblock Max Drop Menge"
+				OneBlockMaxDropsTooltip: "Passt die maximale Anzahl von Gegenständen an, die vom Skyblock fallen gelassen werden.\nDie Chance, eine zusätzliche Menge zu werfen, sinkt um 75%."
+
+				OneBlockBlockRate: "[i:2] Blöcke Drop-Rate"
+				OneBlockBlockRateTooltip: "Passt die Drop-Rate von Standardblöcken für den Himmelsblock an."
+
+				OneBlockOreRate: "[i:13] Abwurfrate der Erderate"
+				OneBlockOreRateTooltip: "Passt die Abwurfrate von Erzen für den Himmelsblock an."
+
+				OneBlockGemRate: "[i:182] Edelsteine Drop Rate"
+				OneBlockGemRateTooltip: "Passt die Drop-Rate von Edelsteinen für den Skyblock an."
+
+				OneBlockLiquidsRate: "[i:206] Wassertropfenrate"
+				OneBlockLiquidsRateTooltip: "Passt die Drop-Rate von Flüssigkeiten für den Himmelsblock an."
+
+				OneBlockSeedsRate: "[i:62] Drop-Rate von Samen"
+				OneBlockSeedsRateTooltip: "Passt die Drop-Rate von Samen für den Skyblock an."
+
+				OneBlockCratesRate: "[i:2334] Kisten-Drop-Rate"
+				OneBlockCratesRateTooltip: "Passt die Drop-Rate von Kisten für den Himmelsblock an."
+
+				OneBlockStatuesRate: "[i:440] Statuen Drop-Rate"
+				OneBlockStatuesRateTooltip: "Passt die Drop-Rate von Statuen für den Skyblock an."
+
+				OneBlockItemsRate: "[i:29] Drop-Rate von Gegenständen"
+				OneBlockItemsRateTooltip: "Passt die Drop-Rate von Gegenständen für den Skyblock an."
+
+				SkyblockDropHeadeer: "Benutzerdefinierte Skyblock-Drops"
+
+				OneBlockCustomRate: "[i:18] Benutzerdefinierte Drop-Rate"
+				OneBlockCustomRateTooltip: "Passt die Drop-Raten von benutzerdefinierten Gegenständen für den Himmelsblock an.\n(1 = Häufig, 0.5 = Ungewöhnlich, 0.1 = Selten, 0 = Unerreichbar)"
+
+				OneBlockCustomDrops: "Hinzufügende Gegenstände:"
+				OneBlockCustomDropsTooltip: "Du kannst deine eigenen Gegenstände zur Drop-Tabelle des Himmelsblocks hinzufügen!"
+
+				Extras: "Extras"
+
+				OneBlockMultiplayer: "[i:751] Zusätzliche Multiplayer-Skyblocks"
+				OneBlockMultiplayerTooltip: "Wenn Sie dies einschalten, werden zusätzliche Himmelsblöcke hinzugefügt, abhängig von der Anzahl der Spieler."
+
+				OneBlockDebug: "[i:1344] Debug-Modus"
+				OneBlockDebugTooltip: "Wenn du dies einschaltest, werden Blockdatenmeldungen aktiviert. Wird für Debugging-Zwecke verwendet."
+			}
+		}
+	}
+}

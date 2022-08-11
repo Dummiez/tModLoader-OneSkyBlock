@@ -1,0 +1,89 @@
+# Inglês ("en-US"), alemão ("de-DE"), italiano ("it-IT"), francês ("fr-FR"), espanhol ("es-ES"), russo ("ru-RU"), chinês ("zh-Hans"), português ("pt-BR") e polonês ("pl-PL")
+# Localização para BetterBeds.tmod
+{
+	Mods: {
+		OneSkyBlock: {
+			CraftableAltar: {
+				DisplayName: "Altar demônio artesanal"
+				Tooltip: "Não vai deixar cair nada se você quebrar!"
+			}
+			WorldGen: {
+				ResetWorld: "Limpar o mundo."
+				PrepareChallenge: "Preparando o Desafio SkyBlock"
+				GenerateIslands: "Gerando ilhas flutuantes"
+				GenerateJungle: "Gerar templo da selva"
+				GenerateDungeon: "Calabouço de geração"
+				FinishLoading: "Acabamento de geração"
+			}
+			Configuration: {
+				WorldGenerationHeader: "Configurações de geração mundial [c/ff9eb4:(pode quebrar durante a criação do mundo)]"
+
+				GenerateDungeon: "[i:3205] Calabouço habilitado"
+				GenerateDungeonTooltip: "Ativar esta opção permitirá que a masmorra gere em mundos recém-criados."
+
+				GenerateTemple: "[i:3208] Templo da Selva Ativado"
+				GenerateTempleTooltip: "Ativando esta opção, o Templo da Selva poderá gerar em mundos recém-criados."
+
+				GenerateUnderworld: "[i:4878] Underworld Enabled."
+				GenerateUnderworldTooltip: "Ativar esta função permitirá que o Submundo gere em mundos recém-criados."
+
+				GeneratePyramids: "[i:4407] Pirâmides Ativadas"
+				GeneratePyramidsTooltip: "Ativar esta função permitirá que Pyramids gerem em mundos recém-criados.\nPyramids podem não gerar independentemente de isso estar ativado.\nWARNING: Esta função pode quebrar a geração de mundos."
+
+				GenerateIslands: "[i:3206] Ilhas Flutuantes Habilitadas"
+				GenerateIslandsTooltip: "Ativar esta funcionalidade permitirá às Ilhas Flutuantes gerar em mundos recém-criados."
+
+				GenerateBiomes: "[i:3203] Micro biomassa habilitada"
+				GenerateBiomesTooltip: "Esta característica está atualmente desativada devido a problemas com a geração mundial."
+
+				GenerateOceans: "[i:5002] Oceanos Habilitados"
+				GenerateOceansTooltip: "Esta característica está atualmente desativada devido a problemas com a geração mundial."
+
+				SkyblockSettingsHeader: "Uma configuração do Skyblock"
+
+				OneBlockMaxDrops: "[i:18] Quantidade de gota máxima do Skyblock"
+				OneBlockMaxDropsTooltip: "Ajuste o número máximo de um item caído do bloco de céu. A chance de enrolar uma quantidade adicional se deprecia em 75%."
+
+				OneBlockBlockRate: "[i:2] Taxa de queda dos Blocos"
+				OneBlockBlockRateTooltip: "Ajuste as taxas de queda dos blocos padrão para o bloco de céu."
+
+				OneBlockOreRate: "[i:13] Taxa de queda de Ores"
+				OneBlockOreRateTooltip: "Ajuste as taxas de queda de minérios para o bloco de céu."
+
+				OneBlockGemRate: "[i:182] Taxa de queda de gemas"
+				OneBlockGemRateTooltip: "Ajuste as taxas de queda de pedras preciosas para o bloco de céu."
+
+				OneBlockLiquidsRate: "[i:206] Taxa de Queda de Líquidos"
+				OneBlockLiquidsRateTooltip: "Ajuste as taxas de queda de líquidos para o bloco de céus."
+
+				OneBlockSeedsRate: "[i:62] Taxa de queda de sementes" 
+				OneBlockSeedsRateTooltip: "Ajuste as taxas de queda de sementes para o bloco de céu."
+
+				OneBlockCratesRate: "[i:2334] Taxa de queda de caixotes"
+				OneBlockCratesRateTooltip: "Ajuste as taxas de queda das caixas para o bloco de céus."
+
+				OneBlockStatuesRate: "[i:440] Taxa de queda de estátuas"
+				OneBlockStatuesRateTooltip: "Ajuste as taxas de queda das estátuas para o bloco de céu."
+
+				OneBlockItemsRate: "[i:29] Itens Taxa de queda"
+				OneBlockItemsRateTooltip: "Ajuste as taxas de queda de itens para o bloco de céu."
+
+				SkyblockDropHeadeer: "Gotas personalizadas para o SkyblockDropHeadeer."
+
+				OneBlockCustomRate: "[i:18] Taxa de queda personalizada" 
+				OneBlockCustomRateTooltip: "Ajuste as taxas de queda de itens adicionados personalizados para o bloco de céu.\n(1 = Comum, 0,5 = Incomum, 0,1 = Raro, 0 = Inatingível)"
+
+				OneBlockCustomDrops: "Item a acrescentar:"
+				OneBlockCustomDropsTooltip: "Você pode adicionar seus próprios itens para adicionar à tabela de queda skyblock!"
+
+				Extras: "Extras"
+
+				OneBlockMultiplayer: "[i:751] Multiplayer Skyblocks adicionais"
+				OneBlockMultiplayerTooltip: "Ligar isto adicionará blocos de céu adicionais, dependendo do número de jogadores."
+
+				OneBlockDebug: "[i:1344] Modo de Depuração" 
+				OneBlockDebugTooltip: "Ao ligar isto, será possível bloquear mensagens de dados. Usado para fins de depuração."
+			}
+		}
+	}
+}

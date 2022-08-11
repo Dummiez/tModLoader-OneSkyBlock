@@ -1,0 +1,89 @@
+# 英语（"en-US"）、德语（"de-DE"）、意大利语（"it-IT"）、法语（"fr-FR"）、西班牙语（"es-ES"）、俄语（"ru-RU"）、汉语（"zh-Hans"）、葡萄牙语（"pt-BR"）、波兰语（"pl-PL"）。
+# BetterBeds.tmod的本地化
+{
+	Mods: {
+		OneSkyBlock: {
+			CraftableAltar: {
+				DisplayName: "可制作的恶魔祭坛"
+				Tooltip: "如果你打碎它，不会掉落任何东西！"
+			}
+			WorldGen: {
+				ResetWorld: "清除世界"
+				PrepareChallenge: "准备SkyBlock挑战"
+				GenerateIslands: "生成浮动的岛屿"
+				GenerateJungle: "生成丛林寺庙"
+				GenerateDungeon: "生成地牢"
+				FinishLoading: "完成生成"
+			}
+			Configuration: {
+				WorldGenerationHeader: "世界生成设置[c/ff9eb4:(在创建世界时可能会中断)]"
+
+				GenerateDungeon: "[i:3205] 地牢已启用"
+				GenerateDungeonTooltip: "打开这个选项将使地牢在新创建的世界上生成。建议在关闭时有一个提供地牢相关物品的MOD。"
+
+				GenerateTemple: "[i:3208] 丛林神庙已启用"
+				GenerateTempleTooltip: "打开这个选项将使丛林神庙在新创建的世界上生成。"
+
+				GenerateUnderworld: "[i:4878] 启用了地下世界"
+				GenerateUnderworldTooltip: "打开这个选项将使地下世界在新创建的世界中生成。警告：这个功能可能会破坏世界的生成。"
+
+				GeneratePyramids: "[i:4407] 启用了金字塔"
+				GeneratePyramidsTooltip: "打开这个选项将使金字塔在新创建的世界中生成。无论是否启用，金字塔都可能不会生成。"
+
+				GenerateIslands: "[i:3206] 浮动岛屿已启用"
+				GenerateIslandsTooltip: "打开这个选项将使浮岛在新创建的世界上生成。建议在关闭时有一个提供浮岛相关物品的MOD。"
+
+				GenerateBiomes: "[i:3203] 微型生物群落已启用"
+				GenerateBiomesTooltip: "由于世界生成的问题，这个功能目前是禁用的。"
+
+				GenerateOceans: "[i:5002] 启用了海洋"
+				GenerateOceansTooltip: "由于世界生成的问题，这个功能目前是禁用的。"
+
+				SkyblockSettingsHeader: "一个天块的设置"
+
+				OneBlockMaxDrops: "[i:18] 天块最大投放量"
+				OneBlockMaxDropsTooltip: "调整从天块中掉落的物品的最大数量，额外数量的滚动机会减少75%。"
+
+				OneBlockBlockRate: "[i:2] 块状物掉落率"
+				OneBlockBlockRateTooltip: "调整天块的标准块的掉落率。"
+
+				OneBlockOreRate: "[i:13] 矿石掉落率"
+				OneBlockOreRateTooltip: "调整天块的矿石掉落率。"
+
+				OneBlockGemRate: "[i:182] 宝石掉落率"
+				OneBlockGemRateTooltip: "调整天块的宝石掉落率。"
+
+				OneBlockLiquidsRate: "[i:206] 液体掉落率"
+				OneBlockLiquidsRateTooltip: "调整天块的液体掉落率。"
+
+				OneBlockSeedsRate: "[i:62] 种子掉落率"
+				OneBlockSeedsRateTooltip: "调整天块的种子掉落率。"
+
+				OneBlockCratesRate: "[i:2334] 箱子掉落率"
+				OneBlockCratesRateTooltip: "调整天块的板条箱掉落率。"
+
+				OneBlockStatuesRate: "[i:440] 雕像掉落率"
+				OneBlockStatuesRateTooltip: "调整天块的雕像掉落率。"
+
+				OneBlockItemsRate: "[i:29] 物品掉落率"
+				OneBlockItemsRateTooltip: "调整天块的物品掉落率。"
+
+				SkyblockDropHeadeer: "自定义天块掉落"
+
+				OneBlockCustomRate: "[i:18] 自定义掉落率"
+				OneBlockCustomRateTooltip: "调整天块的自定义添加物品的掉落率。（1=普通，0.5=不普通，0.1=稀有，0=无法获得）"
+
+				OneBlockCustomDrops: "要添加的物品："
+				OneBlockCustomDropsTooltip: "你可以添加你自己的物品到天块掉落表中！"
+
+				Extras: "额外"
+
+				OneBlockMultiplayer: "[i:751] 额外的多人SkyBlocks"
+				OneBlockMultiplayerTooltip: "打开此将添加额外的块，具体取决于玩家的数量。"
+
+				OneBlockDebug: "[i:1344] 调试模式"
+				OneBlockDebugTooltip: "打开这个将启用块数据信息。用于调试目的。"
+			}
+		}
+	}
+}

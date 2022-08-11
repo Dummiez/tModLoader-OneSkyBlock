@@ -1,0 +1,89 @@
+# English ("en-US"), German ("de-DE"), Italian ("it-IT"), French ("fr-FR"), Spanish ("es-ES"), Russian ("ru-RU"), Chinese ("zh-Hans"), Portuguese ("pt-BR"), and Polish ("pl-PL")
+# Localization for BetterBeds.tmod
+{
+	Mods: {
+			OneSkyBlock: {
+					CraftableAltar: {
+						DisplayName: "Craftable Demon Altar"
+						Tooltip: "Will not drop anything if you break it!"
+					}
+					WorldGen: {
+						ResetWorld: "Clearing the world"
+						PrepareChallenge: "Preparing SkyBlock Challenge"
+						GenerateIslands: "Generating floating islands"
+						GenerateJungle: "Generating jungle temple"
+						GenerateDungeon: "Generating dungeon"
+						FinishLoading: "Finishing up generation"
+					}
+					Configuration: {
+						WorldGenerationHeader: "World Generation Settings [c/ff9eb4:(may break during world creation)]"
+
+						GenerateDungeon: "[i:3205] Dungeon Enabled"
+						GenerateDungeonTooltip: "Turning this ON will enable the Dungeon to generate on newly created worlds.\nIt is recommended to have a mod that provides dungeon-related items when off."
+
+						GenerateTemple: "[i:3208] Jungle Temple Enabled"
+						GenerateTempleTooltip: "Turning this ON will enable the Jungle Temple to generate on newly created worlds.\nIt is recommended to have a mod that provides temple-related items when off."
+
+						GenerateUnderworld: "[i:4878] Underworld Enabled"
+						GenerateUnderworldTooltip: "Turning this ON will enable the Underworld to generate on newly created worlds.\nWARNING: This feature may break world generation."
+
+						GeneratePyramids: "[i:4407] Pyramids Enabled"
+						GeneratePyramidsTooltip: "Turning this ON will enable Pyramids to generate on newly created worlds.\nPyramids may not generate regardless of whether this is enabled.\nWARNING: This feature may break world generation."
+
+						GenerateIslands: "[i:3206] Floating Islands Enabled"
+						GenerateIslandsTooltip: "Turning this ON will enable the Floating Islands to generate on newly created worlds.\nIt is recommended to have a mod that provides floating island-related items when off.\nWARNING: This feature may break world generation."
+
+						GenerateBiomes: "[i:3203] Micro Biomes Enabled"
+						GenerateBiomesTooltip: "This feature is currently disabled due to issues with world generation."
+
+						GenerateOceans: "[i:5002] Oceans Enabled"
+						GenerateOceansTooltip: "This feature is currently disabled due to issues with world generation."
+
+						SkyblockSettingsHeader: "One Skyblock Settings"
+
+						OneBlockMaxDrops: "[i:18] Skyblock Max Drop Quantity"
+						OneBlockMaxDropsTooltip: "Adjust the max number of an item dropped from the skyblock.\nThe chance of rolling an additional quantity deprecates by 75%."
+
+						OneBlockBlockRate: "[i:2] Blocks Drop Rate"
+						OneBlockBlockRateTooltip: "Adjust the drop rates of standard blocks for the skyblock."
+
+						OneBlockOreRate: "[i:13] Ores Drop Rate"
+						OneBlockOreRateTooltip: "Adjust the drop rates of ores for the skyblock."
+
+						OneBlockGemRate: "[i:182] Gems Drop Rate"
+						OneBlockGemRateTooltip: "Adjust the drop rates of gems for the skyblock."
+
+						OneBlockLiquidsRate: "[i:206] Liquids Drop Rate"
+						OneBlockLiquidsRateTooltip: "Adjust the drop rates of liquids for the skyblock."
+
+						OneBlockSeedsRate: "[i:62] Seeds Drop Rate"
+						OneBlockSeedsRateTooltip: "Adjust the drop rates of seeds for the skyblock."
+
+						OneBlockCratesRate: "[i:2334] Crates Drop Rate"
+						OneBlockCratesRateTooltip: "Adjust the drop rates of crates for the skyblock."
+
+						OneBlockStatuesRate: "[i:440] Statues Drop Rate"
+						OneBlockStatuesRateTooltip: "Adjust the drop rates of statues for the skyblock."
+
+						OneBlockItemsRate: "[i:29] Items Drop Rate"
+						OneBlockItemsRateTooltip: "Adjust the drop rates of items for the skyblock."
+
+						SkyblockDropHeadeer: "Custom Skyblock Drops"
+
+						OneBlockCustomRate: "[i:18] Custom Drop Rate"
+						OneBlockCustomRateTooltip: "Adjust the drop rates of custom added items for the skyblock.\n(1 = Common, 0.5 = Uncommon, 0.1 = Rare, 0 = Unobtainable)"
+
+						OneBlockCustomDrops: "Item to add:"
+						OneBlockCustomDropsTooltip: "You can add your own items to add to the skyblock drop table!"
+
+						Extras: "Extras"
+
+						OneBlockMultiplayer: "[i:751] Additional Multiplayer Skyblocks"
+						OneBlockMultiplayerTooltip: "Turning this ON will add additional skyblocks, depending on the number of players."
+
+						OneBlockDebug: "[i:1344] Debug Mode"
+						OneBlockDebugTooltip: "Turning this ON will enable block data messages. Used for debugging purposes."
+					}
+				}
+			}
+}

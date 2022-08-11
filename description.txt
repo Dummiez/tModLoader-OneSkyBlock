@@ -1,0 +1,73 @@
+[c/ff9eb4:One Skyblock Challenge] is a mod based on the Skyblock survival mode concept with only one starting block in the entire map which can be repeatedly mined for resources.
+
+[c/ff9eb4:Mods are recommended] for a complete playthrough. Please make sure to create a new world (small) for a proper skyblock experience. The Dungeon and Temple are currently enabled by default. This can be changed in the config. If world generation is stuck, try restarting the game or disable structures.
+
+[c/ff9eb4:Changelog:]
+[c/f5ffc7:v1.7 (21/07/2022)]
+• Added additional seeds and cactus drops to sky block (under seeds drop rates).
+• Added Oasis Crate recipe.
+[c/f5ffc7:v1.6.9 (02/07/2022)]
+• Added Water Bucket to pity system.
+• Standard blocks (dirt, stone, wood, etc.) now have up to a 5x innate multiplier drop.
+• Fixed an issue with the sky block not working properly in servers.
+[c/f5ffc7:v1.6.7 (01/07/2022)]
+• Stable release update.
+• Updated wokrshop icon.
+• Minor bug fixes.
+[c/f5ffc7:v1.6.6 (01/06/2022)]
+• Stable release update.
+• Minor bug fixes.
+[c/f5ffc7:v1.6.5 (01/05/2022)]
+• Stable release update.
+• Minor bug fixes.
+[c/f5ffc7:v1.6.4 (02/03/2022)]
+• Fixed an issue with item and block generation.
+[c/f5ffc7:v1.6.3 (14/11/2021)]
+• Updated to .NET Runtime 6.0.0
+[c/f5ffc7:v1.6.2 (02/11/2021)]
+• Fixed an issue with QuickSpawnItem breaking loot bags.
+[c/f5ffc7:v1.6.1 (07/10/2021)]
+• Fixed an issue where skyblock would become unbreakable.
+[c/f5ffc7:v1.6 (21/09/2021)]
+• Ores now have a 'pity' where individual drop chance continually increases until it drops from the skyblock (0.25% increase).
+• Support for multiple skyblocks in world for servers (this feature can be toggled in the config settings).
+• Fixed an issue with in-game config not working in servers.
+• Fixed some items/blocks assigned in the wrong drop category.
+• Minor internal item drop rate changes.
+[c/f5ffc7:v1.5 (13/09/2021)]
+• Added basic localization support (DeepL) for the available languages. If you would like to improve these, feel free to leave a comment on the Steam page.
+• Several recipes from 1.3 OneBlock by Jabon were imported.
+• Minor internal item drop rate changes.
+[c/f5ffc7:v1.4.4 (09/09/2021)]
+• Added hellforge, voodoo doll and lihzahrd altar/cell recipes.
+• Added craftable demon altar recipe.
+• Default and internal config balancing.
+[c/f5ffc7:v1.4.1 (06/09/2021)]
+• Custom drops/rates are now available in the config, with support for mods.
+• Updated mod icon.
+[c/f5ffc7:v1.3.2 ~]
+• Sky Islands can now be toggled in the config.
+• Jungle Temple can now be toggled in the config.
+• Fixed more issues with world generation.
+[c/f5ffc7:v1.3 ~]
+• Fixed issues with Dungeon and Underworld generation.
+• Adjusted underground and cavern starting points.
+• Adjusted default skyblock spawn point.
+[c/f5ffc7:v1.2.1 (04/09/2021)]
+• Changed default skyblock type.
+• Adjusted skyblock to require to be destroyed in order to receive drops instead of on-hit.
+[c/f5ffc7:v1.2 ~]
+• Added HERO's Mod permission support.
+• Added Extractinator to Merchant shop. 
+• Adjusted default config.
+• Skyblock initial drop rate changes.
+[c/f5ffc7:v1.1 ~]
+• Added option to enable specific world structures.
+• Added customizable configuration for drops.
+• Disabled some world generation settings due to issues.
+[c/f5ffc7:v1.0 (03/09/2021)]
+• Skyblock item drops depend on current game progression.
+• Multiplayer compatible.
+• Initial release.
+
+Any other feedback is welcome, thanks for checking out this mod!

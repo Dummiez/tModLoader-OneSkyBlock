@@ -1,0 +1,89 @@
+# Anglais ("en-US"), allemand ("de-DE"), italien ("it-IT"), français ("fr-FR"), espagnol ("es-ES"), russe ("ru-RU"), chinois ("zh-Hans"), portugais ("pt-BR"), et polonais ("pl-PL")
+# Localisation pour BetterBeds.tmod
+{
+	Mods: {
+		OneSkyBlock: {
+			CraftableAltar: {
+				DisplayName: "Autel de démon artisanal"
+				Tooltip: "Ne laissera rien tomber si vous le cassez !"
+			}
+			WorldGen: {
+				ResetWorld: "Nettoyage du monde."
+				PrepareChallenge: "Préparation du défi SkyBlock."
+				GenerateIslands: "Générer des îles flottantes"
+				GenerateJungle: "Générer un temple de la jungle"
+				GenerateDungeon: "Générer un donjon"
+				FinishLoading: "Fin de la génération"
+			}
+			Configuration: {
+				WorldGenerationHeader: "Paramètres de génération de monde [c/ff9eb4:(may break during world creation)]"
+
+				GenerateDungeon: "[i:3205] Donjon activé."
+				GenerateDungeonTooltip: "Si vous activez cette option, le donjon sera généré sur les mondes nouvellement créés. Il est recommandé d'avoir un mod qui fournit des objets liés au donjon lorsqu'il est désactivé."
+
+				GenerateTemple: "[i:3208] Temple de la jungle activé."
+				GenerateTempleTooltip: "Si vous activez cette option, le temple de la jungle pourra être généré sur les mondes nouvellement créés. Il est recommandé de disposer d'un mod qui fournit des objets liés aux temples lorsqu'il est désactivé."
+
+				GenerateUnderworld: "[i:4878] Monde souterrain activé"
+				GenerateUnderworldTooltip: "Si vous activez cette option, le monde souterrain pourra être généré sur les mondes nouvellement créés. AVERTISSEMENT: cette fonctionnalité peut interrompre la génération des mondes."
+
+				GeneratePyramids: "[i:4407] Pyramides Enabled"
+				GeneratePyramidsTooltip: "Si vous activez cette option, les pyramides pourront être générées sur les mondes nouvellement créés. Les pyramides peuvent ne pas être générées, que cette option soit activée ou non."
+
+				GenerateIslands: "[i:3206] Îles flottantes activées"
+				GenerateIslandsTooltip: "Si vous activez cette option, les îles flottantes pourront être générées sur les mondes nouvellement créés. Il est recommandé d'avoir un mod qui fournit des objets liés aux îles flottantes lorsqu'il est désactivé."
+
+				GenerateBiomes: "[i:3203] Micro Biomes Activé"
+				GenerateBiomesTooltip: "Cette fonctionnalité est actuellement désactivée en raison de problèmes liés à la génération de monde."
+
+				GenerateOceans: "[i:5002] Océans activés"
+				GenerateOceansTooltip: "Cette fonctionnalité est actuellement désactivée en raison de problèmes liés à la génération de mondes."
+
+				SkyblockSettingsHeader: "Paramètres de One Skyblock"
+
+				OneBlockMaxDrops: "[i:18] Quantité maximale de gouttes dans le Skyblock."
+				OneBlockMaxDropsTooltip: "Ajuste le nombre maximum d'objets largués depuis le skyblock. Les chances de lancer une quantité supplémentaire diminuent de 75%."
+
+				OneBlockBlockRate: "[i:2] Taux de chute des blocs"
+				OneBlockBlockRateTooltip: "Ajuste les taux de chute des blocs standard pour le skyblock."
+
+				OneBlockOreRate: "[i:13] Taux de chute des minerais"
+				OneBlockOreRateTooltip: "Ajuste le taux de chute des minerais dans le bloc aérien."
+
+				OneBlockGemRate: "[i:182] Taux de chute des gemmes"
+				OneBlockGemRateTooltip: "Ajuste le taux de chute des gemmes dans le bloc aérien."
+
+				OneBlockLiquidsRate: "[i:206] Taux de chute des liquides"
+				OneBlockLiquidsRateTooltip: "Ajuste le taux de chute des liquides dans le bloc aérien."
+
+				OneBlockSeedsRate: "[i:62] Taux de chute des graines"
+				OneBlockSeedsRateTooltip: "Ajustez les taux de chute des graines pour le bloc aérien."
+
+				OneBlockCratesRate: "[i:2334] Taux de chute des caisses."
+				OneBlockCratesRateTooltip: "Ajuster le taux de chute des caisses dans le bloc aérien."
+
+				OneBlockStatuesRate: "[i:440] Taux de chute des statues"
+				OneBlockStatuesRateTooltip: "Ajuste le taux de chute des statues dans le bloc aérien."
+
+				OneBlockItemsRate: "[i:29] Taux de chute des objets"
+				OneBlockItemsRateTooltip: "Ajuste le taux de chute des objets dans le bloc aérien."
+
+				SkyblockDropHeadeer: "Gouttes personnalisées du Skyblock"
+
+				OneBlockCustomRate: "[i:18] Taux de chute personnalisé"
+				OneBlockCustomRateTooltip: "Ajuste les taux de chute des objets ajoutés personnalisés pour le skyblock.\n(1 = Commun, 0,5 = Peu commun, 0,1 = Rare, 0 = Inaccessible)"
+
+				OneBlockCustomDrops: "Objet à ajouter:"
+				OneBlockCustomDropsTooltip: "Vous pouvez ajouter vos propres objets à la table de dépôt de skyblock !"
+
+				Extras: "Extras"
+
+				OneBlockMultiplayer : "[i:751] Skyblocks multijoueurs supplémentaires"
+				OneBlockMultiplayerTooltip : "En activant cette option, des skyblocks supplémentaires seront ajoutés, en fonction du nombre de joueurs."
+
+				OneBlockDebug: "[i:1344] Mode débogage"
+				OneBlockDebugTooltip: "En activant cette option, vous activerez les messages de données des blocs. Utilisé à des fins de débogage."
+			}
+		}
+	}
+}

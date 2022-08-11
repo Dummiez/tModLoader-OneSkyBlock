@@ -1,0 +1,89 @@
+# angielski ("en-US"), niemiecki ("de-DE"), włoski ("it-IT"), francuski ("fr-FR"), hiszpański ("es-ES"), rosyjski ("ru-RU"), chiński ("zh-Hans"), portugalski ("pt-BR"), i polski ("pl-PL")
+# Localization for BetterBeds.tmod
+{
+	Mods: {
+		OneSkyBlock: {
+			CraftableAltar: {
+				DisplayName: "Rzemieślniczy Ołtarz Demonów"
+				Tooltip: "Nie spadnie nic, jeśli go złamać!"
+			}
+			WorldGen: {
+				ResetWorld: "Czyszczenie świata."
+				PrepareChallenge: "Przygotowywanie wyzwania SkyBlock"
+				GenerateIslands: "Generowanie pływających wysp"
+				GenerateJungle: "Generowanie świątyni w dżungli"
+				GenerateDungeon: "Generating dungeon."
+				FinishLoading: "Zakończenie generowania"
+			}
+			Configuration: {
+				WorldGenerationHeader: "Ustawienia generowania świata [c/ff9eb4:(may break during world creation)]."
+
+				GenerateDungeon: "[i:3205] Lochy włączone."
+				GenerateDungeonTooltip: "Włączenie tego ON umożliwi generowanie Dungeonu na nowo utworzonych światach.Zaleca się posiadanie moda, który zapewnia przedmioty związane z lochami, gdy jest wyłączony."
+
+				GenerateTemple: "[i:3208] Świątynia Dżungli włączona."
+				GenerateTempleTooltip: "Włączenie tego ON umożliwi generowanie Świątyni Dżungli na nowo utworzonych światach.\nPolecane jest posiadanie moda, który zapewnia przedmioty związane ze świątynią, gdy jest wyłączony."
+
+				GenerateUnderworld: "[i:4878] Underworld Włączony."
+				GenerateUnderworldTooltip: "Włączenie tego umożliwi generowanie Podziemi na nowo utworzonych światach.\nOstrzeżenie: Ta funkcja może przerwać generowanie świata."
+
+				GeneratePyramids: "[i:4407] Piramidy włączone."
+				GeneratePyramidsTooltip: "Włączenie tego umożliwi generowanie piramid na nowo utworzonych światach.\nPiramidy mogą nie generować się niezależnie od tego, czy jest to włączone.\nOstrzeżenie: Ta funkcja może przerwać generowanie świata.."
+
+				GenerateIslands: "[i:3206] Pływające wyspy włączone."
+				GenerateIslandsTooltip: "Włączenie tego ON umożliwi generowanie pływających wysp na nowo utworzonych światach.\nZalecane jest posiadanie moda, który zapewnia przedmioty związane z pływającymi wyspami, gdy jest wyłączony.\nOstrzeżenie: Ta funkcja może przerwać generowanie świata."
+
+				GenerateBiomes: "[i:3203] Umożliwienie tworzenia mikro-biomów."
+				GenerateBiomesTooltip: "Ta funkcja jest obecnie wyłączona ze względu na problemy z generowaniem świata."
+
+				GenerateOceans: "[i:5002] Oceany włączone."
+				GenerateOceansTooltip: "Ta funkcja jest obecnie wyłączona ze względu na problemy z generowaniem świata."
+
+				SkyblockSettingsHeader: "Ustawienia jednego Skyblocka."
+
+				OneBlockMaxDrops: "[i:18] Skyblock Max Ilość zrzutów"
+				OneBlockMaxDropsTooltip: "Dostosuj maksymalną ilość przedmiotu upuszczanego ze skyblocka.Szansa na zrolowanie dodatkowej ilości deprecjonuje się o 75%.."
+
+				OneBlockBlockRate: "[i:2] Wskaźnik odrzutu bloków."
+				OneBlockBlockRateTooltip: "Dostosuj współczynniki dropu standardowych bloków dla danego skyblocka."
+
+				OneBlockOreRate: "[i:13] Szybkość upuszczania rudy."
+				OneBlockOreRateTooltip: "Dostosuj współczynniki dropu rud dla danego skyblocka."
+
+				OneBlockGemRate: "[i:182] Szybkość upuszczania klejnotów."
+				OneBlockGemRateTooltip: "Dostosuj wskaźniki dropu klejnotów dla danego skyblocka."
+
+				OneBlockLiquidsRate: "[i:206] Szybkość opadania cieczy."
+				OneBlockLiquidsRateTooltip: "Dostosuj wskaźniki dropu płynów dla danego skyblocka."
+
+				OneBlockSeedsRate: "[i:62] Szybkość opadania nasion."
+				OneBlockSeedsRateTooltip: "Dostosuj wskaźniki dropu nasion dla danego skyblocka."
+
+				OneBlockCratesRate: "[i:2334] Szybkość upuszczania skrzynek."
+				OneBlockCratesRateTooltip: "Dostosuj współczynniki dropu skrzyń dla skyblocka."
+
+				OneBlockStatuesRate: "[i:440] Wskaźnik upuszczania statuetek."
+				OneBlockStatuesRateTooltip: "Dostosuj współczynniki dropu posągów dla danego skyblocka."
+
+				OneBlockItemsRate: "[i:29] Częstotliwość wypadania przedmiotów."
+				OneBlockItemsRateTooltip: "Dostosuj współczynniki dropu przedmiotów dla danego skyblocka."
+
+				SkyblockDropHeadeer: "Niestandardowe krople Skyblock."
+
+				OneBlockCustomRate: "[i:18] Niestandardowa szybkość opadania."
+				OneBlockCustomRateTooltip: "Dostosuj współczynniki dropu niestandardowych przedmiotów dodanych dla skyblocka.pl(1 = Common, 0.5 = Uncommon, 0.1 = Rare, 0 = Unobtainable)"
+
+				OneBlockCustomDrops: "Przedmiot do dodania:"
+				OneBlockCustomDropsTooltip: "Możesz dodać własne przedmioty do dodania do tabeli dropów skyblocka!."
+
+				Extras: "Dodatki"
+
+				OneBlockMultiplayer: "[i:751] Dodatkowe podniebne bloki w trybie multiplayer."
+				OneBlockMultiplayerTooltip: "Włączenie tego spowoduje dodanie dodatkowych Skyblocków, w zależności od liczby graczy."
+
+				OneBlockDebug: "[i:1344] Tryb debugowania."
+				OneBlockDebugTooltip: "Włączenie tego ON spowoduje włączenie wiadomości z danymi bloków. Używane do celów debugowania."
+			}
+		}
+	}
+}

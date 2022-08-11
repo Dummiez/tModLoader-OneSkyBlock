@@ -1,0 +1,89 @@
+# Inglés ("en-US"), alemán ("de-DE"), italiano ("it-IT"), francés ("fr-FR"), español ("es-ES"), ruso ("ru-RU"), chino ("zh-Hans"), portugués ("pt-BR") y polaco ("pl-PL")
+# Localización de BetterBeds.tmod
+{
+	Mods: {
+		OneSkyBlock: {
+			CraftableAltar: {
+				DisplayName: "Altar de demonios artesanal"
+				Tooltip: "¡No dejará caer nada si lo rompes!"
+			}
+			WorldGen: {
+				ResetWorld: "Borrando el mundo"
+				PrepareChallenge: "Preparando el desafío SkyBlock"
+				GenerateIslands: "Generando islas flotantes"
+				GenerateJungle: "Generando templo de la selva"
+				GenerateDungeon: "Generando mazmorra"
+				FinishLoading: "Terminando generación"
+			}
+			Configuration: {
+				WorldGenerationHeader: "Configuración de la generación del mundo [c/ff9eb4:(puede romperse durante la creación del mundo)]"
+
+				GenerateDungeon: "[i:3205] Mazmorra habilitada"
+				GenerateDungeonTooltip: "Activar esto permitirá generar la mazmorra en los mundos recién creados.\nSe recomienda tener un mod que proporcione objetos relacionados con la mazmorra cuando esté desactivado."
+
+				GenerateTemple: "[i:3208] Templo de la Jungla Activado"
+				GenerateTempleTooltip: "Activar esto permitirá generar el Templo de la Jungla en los mundos recién creados.\nSe recomienda tener un mod que proporcione objetos relacionados con el templo cuando esté desactivado."
+
+				GenerateUnderworld: "[i:4878] Submundo habilitado"
+				GenerateUnderworldTooltip: "Al activar esta opción, el inframundo se generará en los mundos recién creados.\nADVERTENCIA: Esta función puede romper la generación de mundos."
+
+				GeneratePyramids: "[i:4407] Pirámides Activadas"
+				GeneratePyramidsTooltip: "Al activar esta opción, las pirámides se generarán en los mundos recién creados."
+
+				GenerateIslands: "[i:3206] Islas flotantes habilitadas"
+				GenerateIslandsTooltip: "Al activar esta opción, las islas flotantes se generarán en los mundos recién creados.\nSe recomienda tener un mod que proporcione artículos relacionados con las islas flotantes cuando esté desactivado.\nAVISO: Esta característica puede romper la generación de mundos."
+
+				GenerateBiomes: "[i:3203] Microbiomas habilitados"
+				GenerateBiomesTooltip: "Esta característica está actualmente desactivada debido a problemas con la generación de mundos."
+
+				GenerateOceans: "[i:5002] Océanos habilitados"
+				GenerateOceansTooltip: "Esta función está actualmente desactivada debido a problemas con la generación de mundos."
+
+				SkyblockSettingsHeader: "Configuración de One Skyblock"
+
+				OneBlockMaxDrops: "[i:18] Cantidad máxima de gotas de Skyblock"
+				OneBlockMaxDropsTooltip: "Ajusta la cantidad máxima de un objeto que se deja caer desde el bloque celeste.\nLa posibilidad de lanzar una cantidad adicional se deprecia en un 75%."
+
+				OneBlockBlockRate: "[i:2] Tasa de caída de bloques"
+				OneBlockBlockRateTooltip: "Ajusta las tasas de caída de bloques estándar para el skyblock."
+
+				OneBlockOreRate: "[i:13] Tasa de caída de minerales"
+				OneBlockOreRateTooltip: "Ajusta las tasas de caída de los minerales para el skyblock."
+
+				OneBlockGemRate: "[i:182] Tasa de caída de gemas"
+				OneBlockGemRateTooltip: "Ajusta las tasas de caída de gemas para el skyblock."
+
+				OneBlockLiquidsRate: "[i:206] Tasa de caída de líquidos"
+				OneBlockLiquidsRateTooltip: "Ajusta las tasas de caída de líquidos para el skyblock."
+
+				OneBlockSeedsRate: "[i:62] Tasa de caída de semillas"
+				OneBlockSeedsRateTooltip: "Ajusta las tasas de caída de semillas para el skyblock."
+
+				OneBlockCratesRate: "[i:2334] Tasa de Caída de Cajas"
+				OneBlockCratesRateTooltip: "Ajusta las tasas de caída de las cajas para el bloque celeste."
+
+				OneBlockStatuesRate: "[i:440] Tasa de caída de estatuas"
+				OneBlockStatuesRateTooltip: "Ajusta las tasas de caída de las estatuas para el bloque celeste."
+
+				OneBlockItemsRate: "[i:29] Tasa de caída de objetos"
+				OneBlockItemsRateTooltip: "Ajusta las tasas de caída de objetos para el bloque celeste."
+
+				SkyblockDropHeadeer: "Gotas personalizadas de Skyblock"
+
+				OneBlockCustomRate: "[i:18] Tasa de caída personalizada"
+				OneBlockCustomRateTooltip: "Ajusta las tasas de caída de los objetos añadidos de forma personalizada para el bloque celeste.\n(1 = Común, 0,5 = No común, 0,1 = Raro, 0 = Inalcanzable)"
+
+				OneBlockCustomDrops: "Artículo a añadir:"
+				OneBlockCustomDropsTooltip: "¡Puedes añadir tus propios objetos para añadirlos a la tabla de drop del skyblock!"
+
+				Extras: "Extras"
+
+				OneBlockMultiplayer: "[i:751] Skyblocks adicionales multijugador"
+				OneBlockMultiplayerTooltip: "Al activar esto se añadirán Skyblocks adicionales, dependiendo del número de jugadores."
+
+				OneBlockDebug: "[i:1344] Modo de depuración"
+				OneBlockDebugTooltip: "Al activar esta opción se activan los mensajes de datos de los bloques. Se utiliza para fines de depuración."
+			}
+		}
+	}
+}
