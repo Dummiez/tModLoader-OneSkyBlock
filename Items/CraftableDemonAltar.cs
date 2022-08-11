@@ -25,34 +25,32 @@ namespace OneSkyBlock.Items
 			Item.consumable = true;
 			Item.value = Item.buyPrice(0,1,0,0);
 			Item.rare = ItemRarityID.Blue;
-			Item.createTile = TileID.DemonAltar; //ModContent.TileType<CraftableDemonAltar>();	
+			Item.createTile = TileID.DemonAltar; //ModContent.TileType<CraftableDemonAltar>();
 			Item.placeStyle = 0;
 		}
-
         public override void AddRecipes()
         {
-			Recipe.Create(TileID.DemonAltar)
-				.AddIngredient(ItemID.EbonstoneBlock, 15)
-				.AddIngredient(ItemID.RottenChunk, 10)
-				.AddIngredient(ItemID.Deathweed, 5)
-				.AddIngredient(ItemID.BattlePotion, 1)
-				.AddIngredient(ItemID.ThornsPotion, 1)
-				.AddTile(TileID.WorkBenches)
-				.Register();
+			CreateRecipe()
+                .AddIngredient(ItemID.EbonstoneBlock, 15)
+                .AddIngredient(ItemID.RottenChunk, 10)
+                .AddIngredient(ItemID.Deathweed, 5)
+                .AddIngredient(ItemID.BattlePotion, 1)
+                .AddIngredient(ItemID.ThornsPotion, 1)
+                .AddTile(TileID.WorkBenches)
+                .Register();
 
-			Recipe.Create(TileID.DemonAltar)
-				.AddIngredient(ItemID.CrimstoneBlock, 15)
-				.AddIngredient(ItemID.Vertebrae, 10)
-				.AddIngredient(ItemID.Deathweed, 5)
-				.AddIngredient(ItemID.BattlePotion, 1)
-				.AddIngredient(ItemID.ThornsPotion, 1)
-				.AddTile(TileID.WorkBenches)
-				.Register();
+            CreateRecipe()
+                .AddIngredient(ItemID.CrimstoneBlock, 15)
+                .AddIngredient(ItemID.Vertebrae, 10)
+                .AddIngredient(ItemID.Deathweed, 5)
+                .AddIngredient(ItemID.BattlePotion, 1)
+                .AddIngredient(ItemID.ThornsPotion, 1)
+                .AddTile(TileID.WorkBenches)
+                .Register();
             //Recipe recipe = CreateRecipe(ItemID.Zenith);
             //recipe.AddIngredient(ItemID.Wood, 6);
             //recipe.AddTile(TileID.WorkBenches);
             //recipe.Register();
-
         }
 	}
 }
