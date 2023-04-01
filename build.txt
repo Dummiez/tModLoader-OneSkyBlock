@@ -1,6 +1,7 @@
 displayName = One Skyblock Challenge
 author = Aitherix
-version = 1.7
+version = 1.7.4
 hideCode = true
 includeSource = false
 hideResources = true
+patchNotes = Fixes an issue with the version checker.

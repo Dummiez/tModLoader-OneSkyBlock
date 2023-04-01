@@ -135,53 +135,110 @@ namespace OneSkyBlock
             WorldGen.PlaceTile(Main.spawnTileX, Main.spawnTileY, TileID.Cloud, false, false);
             Thread.Sleep(500); // lol
             Random rand = new();
-            int next = (int)(Main.GlobalTimeWrappedHourly);
+            //var dungeonSide = (!WorldGen.genRand.NextBool(2)) ? 1 : (-1);
+            //int next = (int)(Main.GlobalTimeWrappedHourly);
 
             if (ModContent.GetInstance<OneSkyBlockConfig>().GenerateIslands)
             {
-                progress.Message = Language.GetTextValue("Mods.OneSkyBlock.WorldGen.GenerateIslands");
-                progress.Set(0.2f);
-                List<int> randomX = new();
-                List<int> islandX = randomX.OrderBy(a => Guid.NewGuid()).ToList();
-
-                randomX.Add((int)(Main.spawnTileX / (1.11 + (rand.NextDouble() / 3))));
-                randomX.Add((int)(Main.spawnTileX / (2 + (rand.NextDouble() / 2))));
-                randomX.Add((int)(Main.spawnTileX * (1.1 + (rand.NextDouble() / 3))));
-                randomX.Add((int)(Main.spawnTileX * (1.5 + (rand.NextDouble() / 2))));
-
-                double islandY1 = Main.spawnTileY / (2 + (rand.NextDouble() * 2));
-                double islandY2 = Main.spawnTileY / (2 + (rand.NextDouble() * 2));
-                double islandY3 = Main.spawnTileY / (2 + (rand.NextDouble() * 2));
-                double islandY4 = Main.spawnTileY / (2 + (rand.NextDouble() * 2));
-
-                foreach (var islandTask in islandX)
+                progress.Message = $"{Language.GetTextValue("Mods.OneSkyBlock.WorldGen.GenerateIslands")} (1/2)";
+                progress.Set(0.3f);
+                var islandSuccess = false;
+                var totalAttempts = 0;
+                while (!islandSuccess && totalAttempts < 100000)
                 {
-                    Console.WriteLine("Island: {0}", islandTask);
+                    List<int> randomX = new()
+                    {
+                        (int)(Main.spawnTileX / (1.11 + (rand.NextDouble() / 3))),
+                        (int)(Main.spawnTileX / (2 + (rand.NextDouble() / 2))),
+                        (int)(Main.spawnTileX * (1.1 + (rand.NextDouble() / 3))),
+                        (int)(Main.spawnTileX * (1.5 + (rand.NextDouble() / 2)))
+                    };
+                    List<int> islandX = randomX.OrderBy(a => Guid.NewGuid()).ToList();
+
+                    int islandY1 = (int)(Main.spawnTileY / (2 + (rand.NextDouble() * 2)));
+                    int islandY2 = (int)(Main.spawnTileY / (2 + (rand.NextDouble() * 2)));
+                    int islandY3 = (int)(Main.spawnTileY / (2 + (rand.NextDouble() * 2)));
+                    int islandY4 = (int)(Main.spawnTileY / (2 + (rand.NextDouble() * 2)));
+
+                    //static IEnumerable<int> AdjacentTiles(int i, int j)
+                    //{
+                    //    for (int x = i - 100; x <= i + 100; x++)
+                    //        for (int y = j - 100; y <= j + 100; y++)
+                    //            if (x != i || y != j && Framing.GetTileSafely(x, y).HasTile)
+                    //                yield return Framing.GetTileSafely(x, y).TileType;
+                    //}
+                    foreach (var islandTask in islandX)
+                    {
+                        Console.WriteLine("Island: {0}", islandTask);
+                    }
+                    try
+                    {
+                        WorldGen.CloudIsland(islandX[0], islandY1);
+                        //if (AdjacentTiles(islandX[0], islandY1).Contains(TileID.Dirt))
+                        //{
+                        //    WorldGen.PlaceTile(islandX[0], islandY1, TileID.Grass);
+                        //    WorldGen.SpreadGrass(islandX[0], islandY1);
+                        //}
+                        WorldGen.IslandHouse(islandX[0], islandY1, 2);
+
+                        WorldGen.DesertCloudIsland(islandX[1], islandY2);
+                        WorldGen.IslandHouse(islandX[1], islandY2, 3);
+
+                        WorldGen.CloudLake(islandX[2], islandY3);
+
+                        WorldGen.SnowCloudIsland(islandX[3], islandY4);
+                        WorldGen.IslandHouse(islandX[3], islandY4, 1);
+                        islandSuccess = true;
+                        progress.Message = $"{Language.GetTextValue("Mods.OneSkyBlock.WorldGen.GenerateIslands")} (2/2)";
+                        Thread.Sleep(250);
+                    }
+                    catch (Exception)
+                    {
+                        islandSuccess = false;
+                        totalAttempts++;
+                        progress.Message = $"{Language.GetTextValue("Mods.OneSkyBlock.WorldGen.GenerateIslands")} (1/2) - {totalAttempts}";
+                    }
                 }
-                WorldGen.CloudIsland(islandX[0], (int)islandY1);
-                WorldGen.IslandHouse(islandX[0], (int)islandY1, 2);
-                WorldGen.DesertCloudIsland(islandX[1], (int)islandY2);
-                WorldGen.IslandHouse(islandX[1], (int)islandY2, 3);
-                WorldGen.CloudLake(islandX[2], (int)islandY3);
-                WorldGen.SnowCloudIsland(islandX[3], (int)islandY4);
-                WorldGen.IslandHouse(islandX[3], (int)islandY4, 1);
+
             }
             
             if (ModContent.GetInstance<OneSkyBlockConfig>().GenerateTemple)
             {
                 progress.Message = Language.GetTextValue("Mods.OneSkyBlock.WorldGen.GenerateJungle");
-                progress.Set(0.4f);
+                progress.Set(0.6f);
                 //tasks.Add(jungleTask1);
                 //tasks.Add(jungleTask2);
-                WorldGen.makeTemple(next % 2 == 0 ? Main.maxTilesX / 5 : (int)(Main.maxTilesX / 1.25), (int)Main.rockLayer);
+                //ModLoader.TryGetMod("CalamityMod", out Mod CalamityMod);
+                WorldGen.makeTemple(WorldGen.dungeonSide == 1 ? Main.maxTilesX / 5 : (int)(Main.maxTilesX / 1.25), (int)Main.rockLayer);
             }
             if (ModContent.GetInstance<OneSkyBlockConfig>().GenerateDungeon)
             {
-                progress.Message = Language.GetTextValue("Mods.OneSkyBlock.WorldGen.GenerateDungeon");
-                progress.Set(0.6f);
-                WorldGen.MakeDungeon(next % 2 == 0 ? (int)(Main.maxTilesX / 1.25) : Main.maxTilesX / 5, Main.spawnTileY + 30);
+                progress.Message = $"{Language.GetTextValue("Mods.OneSkyBlock.WorldGen.GenerateDungeon")} (1/2)";
+                progress.Set(0.8f);
+                WorldGen.dungeonX = WorldGen.dungeonSide == 1 ? (int)(Main.maxTilesX / 1.25) : Main.maxTilesX / 5;
+                WorldGen.dungeonY = Main.spawnTileY + 30;
+                WorldGen.PlaceTile(WorldGen.dungeonX, WorldGen.dungeonY, TileID.Stone);
+                Thread.Sleep(250);
+                var dungeonSuccess = false;
+                while (!dungeonSuccess)
+                {
+                    try
+                    {
+                        WorldGen.MakeDungeon(WorldGen.dungeonX, WorldGen.dungeonY);
+                        dungeonSuccess = true;
+                        progress.Message = $"{Language.GetTextValue("Mods.OneSkyBlock.WorldGen.GenerateDungeon")} (2/2)";
+                        Thread.Sleep(250);
+                    }
+                    catch (Exception)
+                    {
+                        WorldGen.dungeonX = rand.Next(Main.maxTilesX);
+                        WorldGen.dungeonY = Main.spawnTileY + 30;
+                        dungeonSuccess = false;
+                        progress.Message = $"{Language.GetTextValue("Mods.OneSkyBlock.WorldGen.GenerateDungeon")} (1/2) - {WorldGen.dungeonX}";
+                    }
+                }
             }
-            Thread.Sleep(500);
+            Thread.Sleep(250);
             progress.Message = Language.GetTextValue("Mods.OneSkyBlock.WorldGen.FinishLoading");
             progress.Set(1f);
             Thread.Sleep(500);

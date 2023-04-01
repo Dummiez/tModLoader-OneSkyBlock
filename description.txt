@@ -3,6 +3,15 @@
 [c/ff9eb4:Mods are recommended] for a complete playthrough. Please make sure to create a new world (small) for a proper skyblock experience. The Dungeon and Temple are currently enabled by default. This can be changed in the config. If world generation is stuck, try restarting the game or disable structures.
 
 [c/ff9eb4:Changelog:]
+[c/f5ffc7:v1.7.4 (14/08/2022)]
+• Fixes an issue with the version checker.
+[c/f5ffc7:v1.7.3 (13/08/2022)]
+• Fixed Floating Islands generation config.
+• Fixed an issue with Dungeon generation not working with Calamity mod.
+• Added new version notifier.
+[c/f5ffc7:v1.7.1 (11/08/2022)]
+• Fixed an issue with Craftable Demon Altar not properly showing up as a recipe.
+• Minor bug fixes.
 [c/f5ffc7:v1.7 (21/07/2022)]
 • Added additional seeds and cactus drops to sky block (under seeds drop rates).
 • Added Oasis Crate recipe.
