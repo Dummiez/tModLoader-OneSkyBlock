@@ -1,6 +1,6 @@
 displayName = One Skyblock Challenge
 author = Aitherix
-version = 1.7.4
+version = 1.7.6
 hideCode = true
 includeSource = false
 hideResources = true
